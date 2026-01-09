@@ -1,9 +1,9 @@
 
-# student = {
-#     "name" : "Gauttam",
-#     "age" : 29,
-#     "Course" : "Python"
-# }
+student = {
+    "name" : "Gauttam",
+    "age" : 29,
+    "Course" : "Python"
+}
 
 # print(student)
 
