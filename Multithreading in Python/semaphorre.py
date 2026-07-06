@@ -6,17 +6,18 @@ import time
 sem = Semaphore(2)
 
 def worker(name):
-    print(name," is waiting")
+    with sem:
+        print(name," is waiting")
 
-    sem.acquire()
+        # sem.acquire()
 
-    print(name," entered ")
+        print(name," entered ")
 
-    time.sleep(3)
+        time.sleep(3)
 
-    print(name, " Leaving")
+        print(name, " Leaving")
 
-    sem.release()
+        # sem.release()
 
 for i in range(5):
     t = Thread(target=worker,args=(f"Thread - {i+1}",))

@@ -6,11 +6,12 @@ import time
 lock = threading.Lock()
 
 def speak(name):
-    lock.acquire()
-    for i in range(3):
-        print(name, " is Speaking")
-        
-    lock.release()
+    with lock:
+        # lock.acquire()
+        for i in range(3):
+            print(name, " is Speaking")
+            
+        # lock.release()
 
 t1 = threading.Thread(target=speak,args=("Student 1",))
 
