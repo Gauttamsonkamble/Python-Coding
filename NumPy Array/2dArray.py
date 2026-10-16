@@ -16,3 +16,5 @@ print(arr[1,2])
 
 print(arr[1,1])
 
+print(arr.ndim)
+
