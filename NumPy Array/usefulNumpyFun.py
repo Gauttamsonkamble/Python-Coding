@@ -11,3 +11,6 @@ print("Min = ", np.min(arr))
 
 print("Mean = ",np.mean(arr))
 
+
+
+
