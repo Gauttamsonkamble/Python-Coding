@@ -1,0 +1,23 @@
+Resource,Presence,Skills
+Resource 1,Onsite,".Net, SSIS"
+Resource 2,Onsite,".Net, C#, ASP.NET MVC, WEB API, WCF, Sql Server"
+Resource 3,Onsite,"sql Server, Azure"
+Resource 4,Onsite,".Net, SQL Server, Azure"
+Resource 5,Onsite,".Net, Sql Server"
+Resource 6,Onsite,"SSIS, SQL, Power BI, ADF, Synapse"
+Resource 7,Onsite,.Net
+Resource 8,Onsite,".Net, Sql Server, Azure"
+Resource 9,Offshore,"SSIS, SQL Server, Oracle, DataStage, VB.Net, Scripting, PowerShell"
+Resource 10,Offshore,"SSIS, SQL"
+Resource 11,Offshore,"SSIS, SQL, Oracle SQL, Netezza"
+Resource 12,Offshore,Oracle
+Resource 13,Offshore,".Net, Sql Server, Azure"
+Resource 14,Offshore,".Net, Sql Server"
+Resource 15,Offshore,"asp.net mvc, asp.net core, web api"
+Resource 16,Offshore,".Net, Sql Server"
+Resource 17,Offshore,".Net, Azure"
+Resource 18,Offshore,"SSIS/SQL/ Oracle SQL, Netezza"
+Resource 19,Offshore,"mysql, pl/sql"
+Resource 20,Offshore,"Shell Scripting, Unix, SQL"
+Resource 21,Offshore,"SSIS, Oracle, MySQL, SQL"
+Resource 22,Offshore,".net, C#, MVC, ADO.NET, HTML, CSS, JS and SQL Server"
