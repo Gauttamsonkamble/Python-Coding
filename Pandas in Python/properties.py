@@ -9,14 +9,14 @@ df = pd.DataFrame({
 
 print(df[["Names","City"]])
 
-# print(df.head(2))
+print(df.head(2))
 
-# print(df.tail(2))
+print(df.tail(2))
 
-# print(df.count())
+print(df.count())
 
-# print(df.describe())
+print(df.describe())
 
-# print(df.info())
+print(df.info())
 
 
