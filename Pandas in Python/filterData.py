@@ -7,11 +7,11 @@ df = pd.DataFrame({
     "City" : ["Pune","Mumbai","Nanded","Pune"]
 })
 
-# print(df[df["Marks"]>80])
+print(df[df["Marks"]>80])
 
-# print(df[df["City"]=="Mumbai"])
+print(df[df["City"]=="Mumbai"])
 
-# print(df[(df["Marks"]>80) & (df["City"]=="Pune")])
+print(df[(df["Marks"]>80) & (df["City"]=="Pune")])
 
 print(df[["City","Marks"]])
 
