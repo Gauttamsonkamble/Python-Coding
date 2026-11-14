@@ -14,3 +14,10 @@ print()
 df["Result"] = ["pass","fail","pass","fail"]
 
 print(df)
+
+df.loc[df["Names"]=="Rahul","Marks"]=88
+
+print()
+
+print(df)
+
