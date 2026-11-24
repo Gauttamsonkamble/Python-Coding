@@ -9,6 +9,19 @@ df = pd.DataFrame({
     "City" :["Pune","Mumbai","Nagpur",None]
 })
 
+# df = pd.read_excel("students.xlsx")
+
+df1 =(pd.DataFrame(df))
 
 
 print(df)
+
+print()
+
+print(df.isna())
+
+print(df.isna().sum())
+
+missing_age_rows =df[df["Score"].isna()] 
+
+print(missing_age_rows)
